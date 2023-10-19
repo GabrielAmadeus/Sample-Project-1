@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { /* Background Style */
+    font-family: 'Josefin Sans';
+    background-image: url(BackgroundLogin.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    height: 97vh;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 40px, rgba(0, 0, 0, 0.8) 0px 15px 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    color: white;
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+}
+label {
+    color: white;
+    padding-left: 8px;
+}
+.terms{
+    padding-left: 20px;
+}
+input {
+    display: flex;
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    margin-top: 5px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: #EAEEED;
+}
+
+.checkbox_position { /* Checkbox Position */
+    margin-left: -100px;
+    margin-top: 0.5rem;
+}
+.checkbox_position input[type="checkbox"] { /* Checkbox */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -70px;
+}
+.checkbox_position label.terms { /* Checkbox Label */
+    color: white;
+    font-family: Arial;
+    font-size: smaller;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -68px;
+    margin-top: 6px;
+}
+
+.tnc {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 140, 255);
+}
+
+button {
+    padding: 12px 48px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: limegreen;
+    font-weight: 600;
+    width: 100%;
+    transition: all 0.3s;
+}
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.bottom {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.login {
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 140, 255);
+}
+.login:hover {
+    opacity: 0.8;
+}
+
+
